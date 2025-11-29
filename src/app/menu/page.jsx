@@ -81,7 +81,7 @@ function MenuContent() {
       </div>
 
       {/* Categories */}
-      <div className="w-full flex sm:flex-wrap scrollbar-hide py-2 gap-2 mb-4">
+      <div className="w-full flex overflow-x-auto sm:flex-wrap scrollbar-hide py-2 gap-2 mb-4">
         {categories.map((category, index) => (
           <button
             key={index}
